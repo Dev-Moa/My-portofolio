@@ -4,7 +4,7 @@ import { IoMdClose } from "react-icons/io";
 
 function Navbar() {
   const style = {
-    container: `flex  justify-between items-center text-white  font-[poppins]`,
+    container: `flex mb-12 justify-between items-center text-white  font-[poppins]`,
     ul: `flex gap-5 hidden md:flex `,
     ul_mobile: `md:hidden absolute top-12 right-20 bg-white rounded p-6 from-gray-900 to-gray-600 bg-gradient-to-t`,
     btn: `md:hidden block`,

@@ -18,6 +18,18 @@ function Skills() {
         <img src={js} alt="" />
         <img src={react} alt="" />
       </div>
+      <div className={style.container}>
+        <img src={Html} alt="" />
+        <img src={Css} alt="" />
+        <img src={js} alt="" />
+        <img src={react} alt="" />
+      </div>
+      <div className={style.container}>
+        <img src={Html} alt="" />
+        <img src={Css} alt="" />
+        <img src={js} alt="" />
+        <img src={react} alt="" />
+      </div>
     </div>
   );
 }
