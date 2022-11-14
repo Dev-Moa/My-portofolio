@@ -3,7 +3,7 @@ import React from "react";
 function Who() {
   const style = {
     container: `my-12 font-[poppins]  `,
-    txt: `text-l md:text-xl text-white font-normal  leading-3 `,
+    txt: `text-l md:text-xl text-white font-normal `,
     grdtxt: `my-2 font-semibold text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
   };
   return (
