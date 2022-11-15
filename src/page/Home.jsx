@@ -15,6 +15,9 @@ function Home() {
       <Hero />
       <Who />
       <Skills />
+      <Education />
+      <Projects />
+      <Contact />
     </div>
   );
 }
