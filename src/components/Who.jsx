@@ -10,12 +10,14 @@ function Who() {
     <article className={style.container}>
       <h1 className={style.grdtxt}>Who am i ? </h1>
       <p className={style.txt}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste
-        sunt unde consectetur cum nobis dignissimos dicta odit quia neque
-        consequatur cupiditate, natus quae fugiat nulla ad ipsa laboriosam
-        saepe, totam nam omnis facere! Et quia quos laudantium ullam inventore
-        provident accusantium delectus culpa exercitationem fugit, nihil fugiat
-        blanditiis alias!
+        My name is Mohamed shariif , im web developer from somalia , a country
+        where tech is not popular but hardworking and loyalty is . i have been
+        in the industry not that long but 2 years and i feel that i have been
+        more than that becouse of the passionate and love that i have for this
+        industry. if you like to hear my story read this article{" "}
+        <a className="underline text-gray-300" href="#">
+          Visit Link{" "}
+        </a>{" "}
       </p>
     </article>
   );

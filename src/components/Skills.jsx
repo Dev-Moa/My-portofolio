@@ -14,13 +14,17 @@ import xd from "../assets/adobe xd Icon.png";
 function Skills() {
   const style = {
     parent: ` flex flex-col`,
-    container: `grid grid-cols-3 md:grid-cols-4`,
-    txt: `text-l md:text-xl text-white font-normal leading-9`,
+    container: `grid grid-cols-3 md:grid-cols-4 `,
+    txt: `font-[poppins] text-l md:text-xl text-white font-normal leading-9`,
     grdtxt: `my-2 font-semibold text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
   };
   return (
     <div className={style.parent}>
       <h1 className={style.grdtxt}>Skills</h1>
+
+      <p className={style.txt}>
+        Here are some of the technology that i feel confident to work{" "}
+      </p>
       <div className={style.container}>
         <img src={Html} alt="" />
         <img src={Css} alt="" />

@@ -9,12 +9,8 @@ function Education() {
     <div>
       <h1 className={style.grdtxt}>Education</h1>
       <p className={style.txt}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit iste
-        sunt unde consectetur cum nobis dignissimos dicta odit quia neque
-        consequatur cupiditate, natus quae fugiat nulla ad ipsa laboriosam
-        saepe, totam nam omnis facere! Et quia quos laudantium ullam inventore
-        provident accusantium delectus culpa exercitationem fugit, nihil fugiat
-        blanditiis alias!
+        I'm computer science graduate student and i graduated from the best
+        technology university in somalia (Jamhuriya university)
       </p>
     </div>
   );
