@@ -1,15 +1,15 @@
 import React from "react";
-import Html from "./../assets/Html 5 Icon.png";
-import Css from "./../assets/Css3 Icon.png";
-import js from "./../assets/Javascript Icon.png";
-import react from "./../assets/React Icon 2.png";
-import git from "./../assets/Git Icon.png";
-import github from "./../assets/Github Icon.png";
-import typescript from "./../assets/Typescript Icon.png";
-import redux from "./../assets/redux Icon.png";
-import firebase from "./../assets/firebase Icon.png";
-import figma from "./../assets/figma Icon.png";
-import xd from "./../assets/adobe xd Icon.png";
+// import Html from "./../assets/Html 5 Icon.png";
+// import Css from "./../assets/Css3 Icon.png";
+// import js from "./../assets/Javascript Icon.png";
+// import react from "./../assets/React Icon 2.png";
+// import git from "./../assets/Git Icon.png";
+// import github from "./../assets/Github Icon.png";
+// import typescript from "./../assets/Typescript Icon.png";
+// import redux from "./../assets/redux Icon.png";
+// import firebase from "./../assets/firebase Icon.png";
+// import figma from "./../assets/figma Icon.png";
+// import xd from "./../assets/adobe xd Icon.png";
 function Skills() {
   const style = {
     parent: ` flex flex-col my-12 light`,
