@@ -5,8 +5,8 @@ function Contact() {
     container: `light flex flex-col gap-3 light`,
     txt: `  text-l md:text-xl text-white light leading-9`,
     grdtxt: `hero my-2 font-semibold text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
-    btn: `min-w-24 bg-white p-2 my-4 rounded bg-gradient-to-l from-[#FF7B36] to-[#F80505]  text-white`,
-    input: `rounded`,
+    btn: `min-w-24  p-2 my-4 rounded bg-gradient-to-l from-[#FF7B36] to-[#F80505]  text-white`,
+    input: `border border-white rounded`,
   };
   return (
     <div className={style.container}>

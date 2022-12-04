@@ -5,7 +5,7 @@ function Projects() {
     container: `grid grid-cols-3 gap-5 my-8 light `,
     txt: `text-l md:text-xl text-white font-normal leading-9`,
     grdtxt: `my-4 hero text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
-    card: `max-w-sm min-h-[200px]  p-2 bg-white  rounded`,
+    card: `max-w-sm min-h-[200px]  p-2 border border-white  rounded`,
   };
   return (
     <div>
