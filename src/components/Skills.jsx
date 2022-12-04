@@ -25,7 +25,7 @@ function Skills() {
         Here are some of the technology that i feel confident to work{" "}
       </p>
       <div className={style.container}>
-        <img src={Html} alt="" />
+        {/* <img src={Html} alt="" />
         <img src={Css} alt="" />
         <img src={js} alt="" />
         <img src={react} alt="" />
@@ -36,7 +36,7 @@ function Skills() {
         <img src={redux} alt="" />
         <img src={firebase} alt="" />
         <img src={figma} alt="" />
-        <img src={xd} alt="" />
+        <img src={xd} alt="" /> */}
       </div>
     </div>
   );
