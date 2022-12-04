@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-import { FaReact } from "react-icons/Fa";
+import { FaReact } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
 import { IoLogoPython } from "react-icons/io5";
 import { SiTypescript, SiRedux, SiDjango } from "react-icons/si";
