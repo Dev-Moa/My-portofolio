@@ -1,15 +1,15 @@
 import React from "react";
-// import Html from "./../assets/Html 5 Icon.png";
-// import Css from "./../assets/Css3 Icon.png";
-// import js from "./../assets/Javascript Icon.png";
-// import react from "./../assets/React Icon 2.png";
-// import git from "./../assets/Git Icon.png";
-// import github from "./../assets/Github Icon.png";
-// import typescript from "./../assets/Typescript Icon.png";
-// import redux from "./../assets/redux Icon.png";
-// import firebase from "./../assets/firebase Icon.png";
-// import figma from "./../assets/figma Icon.png";
-// import xd from "./../assets/adobe xd Icon.png";
+import Html from "../assets/Html 5 Icon.png";
+import Css from "../assets/Css3 Icon.png";
+import js from "../assets/Javascript Icon.png";
+import react from "../assets/React Icon 2.png";
+import git from "../assets/Git Icon.png";
+import github from "../assets/Github Icon.png";
+import typescript from "../assets/Typescript Icon.png";
+import redux from "../assets/redux Icon.png";
+import firebase from "../assets/firebase Icon.png";
+import figma from "../assets/figma Icon.png";
+import xd from "../assets/adobe xd Icon.png";
 function Skills() {
   const style = {
     parent: ` flex flex-col my-12 light`,
@@ -25,18 +25,17 @@ function Skills() {
         Here are some of the technology that i feel confident to work{" "}
       </p>
       <div className={style.container}>
-        {/* <img src={Html} alt="" />
+        <img src={Html} alt="" />
         <img src={Css} alt="" />
         <img src={js} alt="" />
         <img src={react} alt="" />
         <img src={git} alt="" />
         <img src={github} alt="" />
-        <img src={sass} alt="" />
         <img src={typescript} alt="" />
         <img src={redux} alt="" />
         <img src={firebase} alt="" />
         <img src={figma} alt="" />
-        <img src={xd} alt="" /> */}
+        <img src={xd} alt="" />
       </div>
     </div>
   );
