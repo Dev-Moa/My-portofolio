@@ -13,10 +13,10 @@ import figma from "../assets/figma Icon.png";
 import xd from "../assets/adobe xd Icon.png";
 function Skills() {
   const style = {
-    parent: ` flex flex-col`,
+    parent: ` flex flex-col my-12 light`,
     container: `grid grid-cols-3 md:grid-cols-4 `,
-    txt: `font-[poppins] text-l md:text-xl text-white font-normal leading-9`,
-    grdtxt: `my-2 font-semibold text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
+    txt: `mb-12 mt-4 text-l md:text-xl text-white font-normal leading-9`,
+    grdtxt: `my-2 hero text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-t from-[#FF7B36] to-[#F80505] font-[poppins]`,
   };
   return (
     <div className={style.parent}>
