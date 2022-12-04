@@ -5,7 +5,6 @@ import js from "./../assets/Javascript Icon.png";
 import react from "./../assets/React Icon 2.png";
 import git from "./../assets/Git Icon.png";
 import github from "./../assets/Github Icon.png";
-import sass from "./../assets/Sass avatar Icon.png";
 import typescript from "./../assets/Typescript Icon.png";
 import redux from "./../assets/redux Icon.png";
 import firebase from "./../assets/firebase Icon.png";
