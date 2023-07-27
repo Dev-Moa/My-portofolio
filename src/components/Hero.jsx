@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/pic.png";
+import logo from "../assets/logo.png";
 import { MdWavingHand } from "react-icons/md";
 function Hero() {
   const style = {
@@ -19,20 +20,19 @@ function Hero() {
           Hello{" "}
           {<MdWavingHand className="absolute top-0 md:left-24 right-32 " />}{" "}
         </h1>
-        <h1 className={style.txt_bold}>I'm Mohamed </h1>
+        <h1 className={style.txt_bold}>We are The Coding Champions </h1>
         <p className={style.txt}>
-          From completely uncivilized environment in technology , im inspired to
-          be developer and I feel happy that my hardworking had worked.
+        Meet the Coding Champs - a team of skilled React developers. Our portfolio showcases our passion for building beautiful, responsive, and dynamic web applications. Join us as we take you through our projects and demonstrate how the Coding Champs are pushing the boundaries of web development.
         </p>
         <div>
           <button className={style.btn}>
-            <a href="https://github.com/Dev-Moa" target="_blank">
+            <a href="https://github.com" target="_blank">
               Github
             </a>{" "}
           </button>
           <button className={style.btn}>
             <a
-              href="https://www.linkedin.com/in/dev-moha-a11932250/"
+              href="https://www.linkedin.com"
               target="_blank"
             >
               Linkedin
@@ -40,7 +40,9 @@ function Hero() {
           </button>
         </div>
       </div>
-      <img src={img} alt="mxd img" className={style.mxd_img} />
+      <div className={style.mxd_img}>
+        <img src={logo} alt="logo img"  />
+      </div>
     </div>
   );
 }

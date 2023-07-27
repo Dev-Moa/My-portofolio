@@ -8,13 +8,9 @@ function Who() {
   };
   return (
     <article className={style.container}>
-      <h1 className={style.grdtxt}>Who am i ? </h1>
+      <h1 className={style.grdtxt}>Who we are ? </h1>
       <p className={style.txt}>
-        My name is Mohamed shariif , im web developer from somalia , a country
-        where tech is not popular but hardworking and loyalty is . i have been
-        in the industry not that long but 2 years and i feel that i have been
-        more than that becouse of the passionate and love that i have for this
-        industry. if you like to hear my story read this article{" "}
+      Meet the Coding Champs - a team of skilled React developers. Our portfolio showcases our passion for building beautiful, responsive, and dynamic web applications. Join us as we take you through our projects and demonstrate how the Coding Champs are pushing the boundaries of web development.
         <a className="underline text-gray-300" href="#">
           Visit Link{" "}
         </a>{" "}

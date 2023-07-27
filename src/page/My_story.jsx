@@ -1,7 +1,7 @@
 import React from "react";
 
 function My_story() {
-  return <div>My_story</div>;
+  return <div>Still writing</div>;
 }
 
 export default My_story;

@@ -19,7 +19,7 @@ function Skills() {
       <h1 className={style.grdtxt}>Skills</h1>
 
       <p className={style.txt}>
-        Here are some of the technology that i feel confident to work{" "}
+        Here are some of the technology that we feel confident to work{" "}
       </p>
       <div className={style.container}>
         <AiFillHtml5 className={style.tech} />
@@ -29,8 +29,6 @@ function Skills() {
         <SiFirebase className={style.tech} />
         <SiTypescript className={style.tech} />
         <SiRedux className={style.tech} />
-        <SiDjango className={style.tech} />
-        <IoLogoPython className={style.tech} />
       </div>
     </div>
   );

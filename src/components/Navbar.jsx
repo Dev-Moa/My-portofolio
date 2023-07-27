@@ -4,6 +4,8 @@ import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { AiFillFacebook, AiFillGithub } from "react-icons/ai";
 import { BsYoutube } from "react-icons/bs";
+import logo from "../assets/logo.png";
+
 function Navbar() {
   const style = {
     container: `flex mb-12 justify-between items-center text-white  `,
@@ -22,24 +24,27 @@ function Navbar() {
 
   return (
     <div className={style.container}>
-      <h1 className={style.grdtxt}>Dev Moha</h1>
+      <div>
+      <img className="w-16" src={logo} alt="" />
+      <p>coding Champs</p>
+      </div>
       <div className={style.tech}>
         {/* facebook */}
         <a
           target="_blank"
-          href="https://www.facebook.com/profile.php?id=100085252966518"
+          href="https://www.facebook.com/"
         >
           <AiFillFacebook />
         </a>
         {/* youtube */}
         <a
           target="_blank"
-          href="https://www.youtube.com/channel/UCp0Mg7lHe2h_cP8Dl9leBqg"
+          href="https://www.youtube.com/"
         >
           <BsYoutube />
         </a>
         {/* github */}
-        <a target="_blank" href="https://github.com/Dev-Moa">
+        <a target="_blank" href="https://github.com">
           <AiFillGithub />
         </a>
       </div>

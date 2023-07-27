@@ -9,7 +9,7 @@ function Education() {
     <div className="my-8">
       <h1 className={style.grdtxt}>Education</h1>
       <p className={style.txt}>
-        I'm computer science graduate student and i graduated from the best
+        We are computer science  student and we are studying from the best
         technology university in somalia (Jamhuriya university)
       </p>
     </div>

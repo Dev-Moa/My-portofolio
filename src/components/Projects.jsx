@@ -1,5 +1,7 @@
 import React from "react";
-
+import img1 from "../assets/img1.jpeg";
+import img2 from "../assets/img2.jpeg";
+import img3 from "../assets/img3.jpeg";
 function Projects() {
   const style = {
     container: `grid grid-cols-3 gap-5 my-8 light `,
@@ -9,26 +11,27 @@ function Projects() {
   };
   return (
     <div>
-      <h1 className={style.grdtxt}>Projects</h1>
+      <h1 className={style.grdtxt}>Images </h1>
+      <p className={style.grdtxt}> </p>
       <div className={style.container}>
         <div className={style.card}>
           <a href=""></a>
-          <img alt="" />
+          <img src={img1} alt="" />
         </div>
         <div className={style.card}>
-          <img src="" alt="" />
+        <img src={img2} alt="" />
         </div>
         <div className={style.card}>
-          <img src="" alt="" />
+        <img src={img3} alt="" />
         </div>
         <div className={style.card}>
-          <img src="" alt="" />
+        <img src={img1} alt="" />
         </div>
         <div className={style.card}>
-          <img src="" alt="" />
+        <img src={img2} alt="" />
         </div>
         <div className={style.card}>
-          <img src="" alt="" />
+        <img src={img3} alt="" />
         </div>
       </div>
     </div>
