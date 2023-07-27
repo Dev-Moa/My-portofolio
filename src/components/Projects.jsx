@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
+import img4 from "../assets/img4.jpeg";
 function Projects() {
   const style = {
     container: `grid grid-cols-3 gap-5 my-8 light `,
@@ -25,7 +26,7 @@ function Projects() {
         <img src={img3} alt="" />
         </div>
         <div className={style.card}>
-        <img src={img1} alt="" />
+        <img src={img4} alt="" />
         </div>
         <div className={style.card}>
         <img src={img2} alt="" />

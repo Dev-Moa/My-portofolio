@@ -10,7 +10,7 @@ function Contact() {
   };
   return (
     <div className={style.container}>
-      <h1 className={style.grdtxt}>Contact me </h1>
+      <h1 className={style.grdtxt}>Contact us </h1>
 
       <input className={style.input} type="text" placeholder="Name" />
 
